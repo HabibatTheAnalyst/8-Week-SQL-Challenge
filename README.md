@@ -4,7 +4,7 @@ Danny Ma's SQL Challenge
 
 This repository contains the solution to Danny's challenge https://8weeksqlchallenge.com/
 
-# Case Study One - Danny Ma's Diner
+# Case Study One - Danny's Diner
 <img src="https://user-images.githubusercontent.com/93320956/159065921-fcf15796-6de1-4054-a964-de6dc425f994.png" width="300" height="300">
 
 # Business Description
