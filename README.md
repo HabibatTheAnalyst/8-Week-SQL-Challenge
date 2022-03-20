@@ -11,6 +11,12 @@ This repository contains the solution to Danny's challenge https://8weeksqlchall
 Danny's Diner is a Japanese restaurant that sells Danny's favourite foods: sushi, curry and ramen.
 
 # Business Problem
-The restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business. These data are to be used to answer questions about his custmers especially about their visiting patterns, how much money they’ve spent and also which menu items are their favour. 
+The restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business. These data are to be used to answer questions about Danny's custmers especially about their visiting patterns, how much money they’ve spent and also which menu items are their favour. 
 
 This understanding will help him deliver and keep up with customers demands. To help with this, by keeping the business afloat, I need to provide answers to Danny's business questions.
+
+# Entity Relationship Diagram
+In this case study, three datasets were presented by Danny to solve the business challenge. The datasets are: sales, menu, and members.
+The diagram below shows the entity relationship between the datasets.
+
+<img src="https://user-images.githubusercontent.com/93320956/159158168-fc3f4618-be4d-49cd-a0d8-80a181bcb067.png" width="600" height="300">
