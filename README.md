@@ -20,3 +20,6 @@ In this case study, three datasets were presented by Danny to solve the business
 The diagram below shows the entity relationship between the datasets.
 
 <img src="https://user-images.githubusercontent.com/93320956/159158168-fc3f4618-be4d-49cd-a0d8-80a181bcb067.png" width="600" height="300">
+
+# Case Study Two - Pizza Runner
+<img src="https://user-images.githubusercontent.com/93320956/159271900-b007d9a9-8732-4e47-be7c-c46ae3f209bf.png" width="300" height="300">
