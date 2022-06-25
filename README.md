@@ -8,7 +8,7 @@ This repository contains the solution to the case studies in Danny Ma's [8-Week-
 In this repository, each case-study folder contains the following files;
 
  - A readme file explaining the case study, problem statement, and datasets used
- - Case study files which contains SQL queries answering the respective challenge questions
+ - Markdown case study files which contains SQL queries answering the respective challenge questions
  - Files containing SQL sripts
 
 # Challenge case studies
