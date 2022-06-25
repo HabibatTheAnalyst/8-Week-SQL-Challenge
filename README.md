@@ -12,8 +12,8 @@ In this repository, each case-study folder contains the following files;
  - Files containing SQL sripts
 
 # Challenge case studies
-🍜Case Study #1 - Danny's Diner
+🍜[Case Study #1 - Danny's Diner](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/tree/main/Case%20Study%20%23%201%20-%20Danny's%20Diner)
 
-🍕Case Study #2 - Pizza Runner
+🍕[Case Study #2 - Pizza Runner](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/tree/main/Case%20Study%20%23%202%20-%20Pizza%20Runner)
 
-🥑Case Study #3 - Foodie-Fi
+🥑[Case Study #3 - Foodie-Fi](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/tree/main/Case%20Study%20%23%203%20-%20Foodie%20Fi)
