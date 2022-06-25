@@ -34,5 +34,7 @@ The diagram below shows the entity relationship between the datasets.
 <img src="https://user-images.githubusercontent.com/93320956/159158168-fc3f4618-be4d-49cd-a0d8-80a181bcb067.png" width="600" height="300">
 
 Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/A.%20Case%20Study%20Questions) to view the solution to the case study questions!
+
 Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/B.%20Bonus%20Questions) to view the solution to the bonus question!
+
 Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/C.%20Rank%20All%20The%20Things) to view the solution to Rank All The Things section!
