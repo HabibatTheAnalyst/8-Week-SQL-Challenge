@@ -20,7 +20,9 @@ In this case study, three key datasets were presented by Danny to solve the busi
 The datasets are: sales, menu, and members.
 
 > sales: The sales table captures all "customer_id" level purchases with an corresponding "order_date" and "product_id" information for when and what menu items were ordered.
+
 > menu: The menu table maps the "product_id" to the actual "product_name" and price of each menu item.
+
 > members: The final members table captures the "join_date" when a "customer_id" joined the beta version of the Danny’s Diner loyalty program.
 
 # Entity Relationship Diagram
