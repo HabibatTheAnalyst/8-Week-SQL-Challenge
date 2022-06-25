@@ -210,7 +210,7 @@ GROUP BY s.customer_id;
 
 
 
----If each $1 spent equates to 10 points and sushi has a 2x points multiplier — how many points would each customer have?
+---If each $1 spent equates to 10 points and sushi has a 2x points multiplier ï¿½ how many points would each customer have?
 
 WITH cte_points
 AS
@@ -235,7 +235,7 @@ GROUP BY customer_id;
 
 
 
----In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi — how many points do customer A and B have at the end of January?
+---In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi ï¿½ how many points do customer A and B have at the end of January?
 
 WITH dates_cte 
 AS
