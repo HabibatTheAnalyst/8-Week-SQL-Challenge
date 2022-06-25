@@ -6,7 +6,6 @@
  - [Business Problem](#business-problem)
  - [Datasets](#datasets)
  - [Entity Relationship Diagram](#entity-relationship-diagram)
- - [Case Study Questions](#case-study-questions)
 
 # Business Description
 Danny's Diner is a Japanese restaurant that sells Danny's favourite foods: sushi, curry and ramen.
@@ -34,16 +33,8 @@ The diagram below shows the entity relationship between the datasets.
 
 <img src="https://user-images.githubusercontent.com/93320956/159158168-fc3f4618-be4d-49cd-a0d8-80a181bcb067.png" width="600" height="300">
 
-# Case Study Questions
-1. What is the total amount each customer spent at the restaurant?
-2. How many days has each customer visited the restaurant?
-3. What was the first item from the menu purchased by each customer?
-4. What is the most purchased item on the menu and how many times was it purchased by all customers?
-5. Which item was the most popular for each customer?
-6. Which item was purchased first by the customer after they became a member?
-7. Which item was purchased just before the customer became a member?
-8. What is the total items and amount spent for each member before they became a member?
-9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/A.%20Case%20Study%20Questions) to view the solution to the case study questions!
 
-Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/A.%20Case%20Study%20Questions) to view the solution solution of the case study!
+Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/B.%20Bonus%20Questions) to view the solution to the bonus question!
+
+Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/C.%20Rank%20All%20The%20Things) to view the solution to Rank All The Things section!
