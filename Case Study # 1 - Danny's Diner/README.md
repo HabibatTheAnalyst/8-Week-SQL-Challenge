@@ -12,7 +12,7 @@ Danny's Diner is a Japanese restaurant that sells Danny's favourite foods: sushi
 
 # Business Problem
 The restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business. These data are to be used to answer questions about Danny's custmers especially about their visiting patterns, how much money they’ve spent and also which menu items are their favour. 
-U
+
 This understanding will help him deliver and keep up with customers demands. To help with this, by keeping the business afloat, I need to provide answers to Danny's business questions.
 
 # Datasets
