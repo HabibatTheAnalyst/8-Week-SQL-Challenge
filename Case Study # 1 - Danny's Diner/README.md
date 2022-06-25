@@ -45,3 +45,5 @@ The diagram below shows the entity relationship between the datasets.
 8. What is the total items and amount spent for each member before they became a member?
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+
+Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%201%20-%20Danny's%20Diner/A.%20Case%20Study%20Questions) to view the solution solution of the case study!
