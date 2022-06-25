@@ -27,4 +27,4 @@ The diagram below shows the entity relationship between the datasets.
 
 <img src="https://user-images.githubusercontent.com/93320956/162197770-f5435f23-07b5-4389-8de5-c67892b02bb9.png" width="600" height="300">
 
-Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/tree/main/Case%20Study%20%23%202%20-%20Pizza%20Runner) to view the solution to the case study!
+Click [here](https://github.com/HabibatTheAnalyst/8-Week-SQL-Challenge/blob/main/Case%20Study%20%23%202%20-%20Pizza%20Runner/A.%20Pizza%20Metrics) to view the pizza metrics solution!
