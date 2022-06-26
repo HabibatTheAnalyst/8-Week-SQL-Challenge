@@ -18,7 +18,7 @@ FROM dannys_diner.sales
 GROUP BY customer_id
 ORDER BY customer_id;
 ``` 
-1. What is the total amount each customer spent at the restaurant?
+### 1. What is the total amount each customer spent at the restaurant?
 ```sql
 SELECT
 		s.customer_id,
