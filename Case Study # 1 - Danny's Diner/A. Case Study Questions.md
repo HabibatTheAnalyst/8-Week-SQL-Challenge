@@ -16,19 +16,19 @@
 ```sql
 SELECT
 		s.customer_id,
-		SUM(price) AS TotalAmount
+		SUM(price) AS 'total amount'
 FROM sales AS s
 INNER JOIN menu AS m
 ON s.product_id = m.product_id
 GROUP BY customer_id;
 ```
 
-#### Result set:
-| customer_id | total_sales |
-| ----------- | ----------- |
-| A           | $76         |
-| B           | $74         |
-| C           | $36         |
+#### Result:
+| customer_id | total amount |
+| ----------- | ------------ |
+| A           | $76          |
+| B           | $74          |
+| C           | $36          |
 
 ***
 ### 2. How many days has each customer visited the restaurant?
