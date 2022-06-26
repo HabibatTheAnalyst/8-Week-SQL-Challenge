@@ -7,12 +7,14 @@ Create basic data tables that Danny and his team can use to quickly derive insig
 ```sql
 SELECT customer_id,
        order_date,
-       product_name,
+       product_name,  
        price,
        IF(order_date >= join_date, 'Y', 'N') AS member
-FROM members
-RIGHT JOIN sales USING (customer_id)
-INNER JOIN menu USING (product_id)
+FROM members AS mb
+RIGHT JOIN sales AS s
+ON mb.customer_id = s.customer_id
+INNER JOIN menu AS m
+ON s.product_id = m.productId
 ORDER BY customer_id,
          order_date;
 ```
