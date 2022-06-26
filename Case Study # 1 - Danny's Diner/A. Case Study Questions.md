@@ -12,7 +12,7 @@
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
  
-## 1. What is the total amount each customer spent at the restaurant?
+### 1. What is the total amount each customer spent at the restaurant?
 ```sql
 SELECT
 		s.customer_id,
@@ -23,7 +23,15 @@ ON s.product_id = m.product_id
 GROUP BY customer_id;
 ```
 
-## 2. How many days has each customer visited the restaurant?
+#### Result set:
+| customer_id | total_sales |
+| ----------- | ----------- |
+| A           | $76         |
+| B           | $74         |
+| C           | $36         |
+
+***
+### 2. How many days has each customer visited the restaurant?
 ```sql
 SELECT
 	   customer_id,
@@ -32,7 +40,7 @@ FROM sales
 Group by customer_id;
 ```
 
-## 3. What was the first item from the menu purchased by each customer?
+### 3. What was the first item from the menu purchased by each customer?
 ```sql
 WITH CTE
 AS
@@ -50,7 +58,7 @@ WHERE rank = 1
 GROUP BY customer_id, product_name;
 ```
 
-## 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```sql
 SELECT TOP 1 (COUNT(s.product_id)) AS most_purchased, product_name
 FROM menu AS m
@@ -60,7 +68,7 @@ GROUP BY product_name
 ORDER BY most_purchased DESC;
 ```
 
-## 5. Which item was the most popular for each customer?
+### 5. Which item was the most popular for each customer?
 ```sql
 WITH CTE
 AS
@@ -80,7 +88,7 @@ WHERE rank = 1
 GROUP BY customer_id, product_name, order_count;
 ```
 
-## 6. Which item was purchased first by the customer after they became a member?
+### 6. Which item was purchased first by the customer after they became a member?
 ```sql
 WITH member_sales_cte AS 
 (
@@ -99,7 +107,7 @@ JOIN menu AS m2
 WHERE rank = 1;
 ```
 
-## 7. Which item was purchased just before the customer became a member?
+### 7. Which item was purchased just before the customer became a member?
 ```sql
 WITH cte_before_member
 AS
@@ -123,7 +131,7 @@ ON m.product_id = c.product_id
 WHERE Rank = 1;
 ```
 
-## 8. What is the total items and amount spent for each member before they became a member?
+### 8. What is the total items and amount spent for each member before they became a member?
 ```sql
 SELECT DISTINCT(s.customer_id)
 	,COUNT(DISTINCT s.product_id) AS total_item
@@ -137,7 +145,7 @@ WHERE order_date < join_date
 GROUP BY s.customer_id;
 ```
 
-## 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier � how many points would each customer have?
+### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier � how many points would each customer have?
 ```sql
 WITH cte_points
 AS
@@ -158,7 +166,7 @@ ON c.product_id = s.product_id
 GROUP BY customer_id;
 ```
 
-## 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi � how many points do customer A and B have at the end of January?
+### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi � how many points do customer A and B have at the end of January?
 ```sql
 WITH dates_cte 
 AS
