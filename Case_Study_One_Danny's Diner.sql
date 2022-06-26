@@ -78,7 +78,7 @@ GROUP BY customer_id;
 
 SELECT
 	   customer_id,
-	   COUNT(DISTINCT (order_date)) AS NumberofVisits
+	   COUNT(DISTINCT (order_date)) AS 'Number of Visits'
 FROM sales
 Group by customer_id;
 
