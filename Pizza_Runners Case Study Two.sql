@@ -504,7 +504,38 @@ FROM cte_exclusion
 WHERE added_times > 1;
 
 
-
+--- Generate an order item for each record in the customers_orders table in the format of one of the following:
+--- * Meat Lovers
+--- * Meat Lovers - Exclude Beef
+--- * Meat Lovers - Extra Bacon
+--- * Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
+WITH order_summary_cte AS
+  (SELECT pizza_name,
+          row_num,
+          order_id,
+          customer_id,
+          excluded_topping,
+          t2.topping_name AS extras_topping
+   FROM
+     (SELECT *,
+             topping_name AS excluded_topping
+      FROM row_split_customer_orders_temp
+      LEFT JOIN standard_ingredients USING (pizza_id)
+      LEFT JOIN pizza_toppings ON topping_id = exclusions) t1
+   LEFT JOIN pizza_toppings t2 ON t2.topping_id = extras)
+SELECT order_id,
+       customer_id,
+       CASE
+           WHEN excluded_topping IS NULL
+                AND extras_topping IS NULL THEN pizza_name
+           WHEN extras_topping IS NULL
+                AND excluded_topping IS NOT NULL THEN concat(pizza_name, ' - Exclude ', GROUP_CONCAT(DISTINCT excluded_topping))
+           WHEN excluded_topping IS NULL
+                AND extras_topping IS NOT NULL THEN concat(pizza_name, ' - Include ', GROUP_CONCAT(DISTINCT extras_topping))
+           ELSE concat(pizza_name, ' - Include ', GROUP_CONCAT(DISTINCT extras_topping), ' - Exclude ', GROUP_CONCAT(DISTINCT excluded_topping))
+       END AS order_item
+FROM order_summary_cte
+GROUP BY row_num;
 
 
 										--- (D) Pricing and Ratings ---
