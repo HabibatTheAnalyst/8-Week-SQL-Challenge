@@ -5,6 +5,7 @@
  - [Business Description](#business-description)
  - [Business Problem](#business-problem)
  - [Datasets](#datasets)
+ - [Case Study Questions](#case-study-questions)
  - [Entity Relationship Diagram](#entity-relationship-diagram)
 
 # Business Description
@@ -26,6 +27,15 @@ In this case study, six datasets were presented by Danny to solve the business c
 * pizza_recipes: Each pizza_id has a standard set of toppings which are used as part of the pizza recipe.
 
 * pizza_toppings: This table contains all of the topping_name values with their corresponding topping_id value.
+
+# Case Study Questions
+This case study has LOTS of questions. Each of which can be answered using a single SQL statement. They are broken up by area of focus including:
+
+* Pizza Metrics
+* Runner and Customer Experience
+* Ingredient Optimisation
+* Pricing and Ratings
+* Bonus DML Challenges (DML = Data Manipulation Language)
 
 # Entity Relationship Diagram
 The diagram below shows the entity relationship between the datasets.
