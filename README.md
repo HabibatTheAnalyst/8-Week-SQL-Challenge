@@ -1,6 +1,6 @@
 # 8-Week-SQL-Challenge
 
-> Solutions are coded in Microsoft SQL Server Management Studio
+> Solutions were coded in Microsoft SQL Server Management Studio
 
 This repository contains the solution to the case studies in Danny Ma's [8-Week-SQL-Chalenge](https://8weeksqlchallenge.com/). The 8 Week SQL Challenge was founded by Danny Ma for analysts to play around with data using SQL. It consists of 8 different SQL challenges, from which you can choose the case study and questions to answer.
 
